@@ -1,0 +1,176 @@
+body {
+    text-align: center;
+    margin: 0px;
+    margin-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    color: blue;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#59ff00 0%, #00fff7 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    z-index: 9;
+}
+
+.parallex-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 250;
+}
+
+#bio {
+    padding: 50px;
+    padding-top: 700px;
+    font-size: 30px;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 24px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Xanh Mono', monospace;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 20;
+    cursor: pointer;
+    background: linear-gradient(#59ff00 0%, #68cf15 100%);
+    border: solid;
+    border-color: #00fff7;
+    border-width: 2.5px;
+    padding: 5px;
+}
+
+.links {
+    float: left;
+    color: coral;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: transform 0.2s;
+}
+
+.links:hover {
+    color: purple;
+    font-weight: 600;
+    font-size: 23px;
+    text-decoration: none !important;
+    transform: scale(0.9);
+}
+
+.profile {
+    transition: transform 0.2s;
+}
+
+.profile:hover {
+    transform: scale(1.09);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+iframe {
+    border: solid;
+    border-width: 5px;
+    border-color: cornflowerblue;
+    padding: 10px;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.alinks {
+    float: left;
+    color: coral;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: transform 0.2s;
+}
+
+.alinks:hover {
+    color: purple;
+    font-weight: 600;
+    font-size: 23px;
+    text-decoration: none !important;
+    transform: scale(0.9);
+}
+
+.article {
+    color: cornflowerblue;
+    text-decoration: none;
+    transition: transform;
+}
+
+.article:hover {
+    color: purple;
+    font-weight: 500;
+    font-size: 17px;
+    transform: scale(0.9);
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.discord {
+    width: 22.5px;
+}
+
+input {
+    background: grey;
+}
